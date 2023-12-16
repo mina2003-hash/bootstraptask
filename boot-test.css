@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+:root{
+    --navcolor:rgb(147, 132, 100);
+}
+.navbar {
+z-index: 99999999999;
+}
+.two{
+    height: 90vh;
+}
+.one{
+    z-index: 2;
+}
+.font{
+    font-size: 6rem;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color: white;
+}

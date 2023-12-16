@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./boot-test.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top px-5" style="background-color:rgb(15, 23, 43);">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2" style="color:rgb(147, 132, 100);" href="./index.html">Restaurant's</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-4 border-bottom border-3 mx-2" aria-current="page" style="color:rgb(147, 132, 100);" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 border-bottom border-3 mx-2" href="#" style="color:rgb(147, 132, 100);">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 border-bottom border-3 mx-2" style="color:rgb(147, 132, 100);" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled fs-4 border-bottom border-3 mx-2" style="color:rgb(147, 132, 100);" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade position-relative">
+            <div class="carousel-inner opacity-75">
+                <div class="carousel-item active two">
+                    <img src="https://c.pxhere.com/photos/a0/6d/korean_cabbage_in_chili_sauce_northeastern_chinese_cuisine_hot_sauce_chinese_cabbage_the_next_day_mixed_rice_hot_and_sour_delicious-833171.jpg!s1" class="d-block w-100 h-100 " alt="...">
+                </div>
+                <div class="carousel-item two">
+                    <img src="https://c.pxhere.com/photos/69/ee/abstract_barbecue_barbeque_bbq_beef_bone_britain_british-819288.jpg!s1" class="d-block w-100 h-100" alt="...">
+                </div>
+                <div class="carousel-item two">
+                    <img src="https://c.pxhere.com/photos/09/ab/food_steak_broccoli_dish_meat-9802.jpg!s1" class="d-block w-100 h-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="position-absolute top-50 start-0 translate-middle-y one mx-5 px-5">
+                <h1 class="ms-0  w-50 font">Enjoy Our Delicious Meal</h1>
+                <p class="fw-normal fs-3  w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, illum! Pariatur obcaecati a architecto incidunt, libero distinctio ad exercitationem quidem ipsam consequuntur quis maiores autem fuga aut doloribus quasi magnam?</p>
+            </div>
+        </div>
+    </section>
+    <article class="d-flex flex-wrap w-50 justify-content-center m-auto text-center my-5">
+        <h1 class="fs-1 my-5 border-bottom border-5 border-dark"><i>About Us</i></h1>
+        <p class="mt-2 fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deserunt aperiam ratione accusamus asperiores dolor voluptates commodi! Molestias corporis, aliquam culpa quisquam consequuntur possimus explicabo inventore rem quas, enim voluptas!</p>
+    </article>
+    <section class="bg-secondary">
+        <h1 class="py-5 my-5 d-flex justify-content-center">Our Menu</h1>
+        <div class="button d-flex justify-content-center  gap-5 m-5">
+            <button class="btn btn-outline-light px-5  fs-3 " style="background-color:rgb(147, 132, 100);" type="submit">all</button>
+            <button class="btn btn-outline-light px-5  fs-3 " style="background-color:rgb(147, 132, 100);" type="submit">steak</button>
+            <button class="btn btn-outline-light px-5  fs-3 " style="background-color:rgb(147, 132, 100);" type="submit">pasta</button>
+            <button class="btn btn-outline-light px-5  fs-3 " style="background-color:rgb(147, 132, 100);" type="submit">pizza</button>
+            <button class="btn btn-outline-light px-5  fs-3 " style="background-color:rgb(147, 132, 100);" type="submit">drinks</button>
+        </div>
+        <div class="d-flex justify-content-between flex-wrap gap-5 mx-5 p-5">
+            <div class="card bg-warning rounded-3 mx-5 shadow-lg rounded" style="width: 18rem;">
+                <img src="https://c.pxhere.com/photos/d4/49/bread_loaf_food_french_loaf_sesame_seed-25751.jpg!s1" class="card-img-top" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title d-flex justify-content-center fs-2 m-3">Card title</h5>
+                    <a href="#" class="btn d-flex justify-content-center fs-3 m-3" style="background-color:rgb(147, 132, 100);">Add To Card</a>
+                </div>
+            </div>
+            <div class="card bg-warning rounded-3 mx-5 shadow-lg rounded" style="width: 18rem;">
+                <img src="https://c.pxhere.com/photos/d4/49/bread_loaf_food_french_loaf_sesame_seed-25751.jpg!s1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center fs-2 m-3">Card title</h5>
+                    <a href="#" class="btn d-flex justify-content-center fs-3 m-3" style="background-color:rgb(147, 132, 100);">Add To Card</a>
+                </div>
+            </div>
+            <div class="card bg-warning rounded-3 mx-5 shadow-lg rounded" style="width: 18rem;">
+                <img src="https://c.pxhere.com/photos/d4/49/bread_loaf_food_french_loaf_sesame_seed-25751.jpg!s1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center fs-2 m-3">Card title</h5>
+                    <a href="#" class="btn d-flex justify-content-center fs-3 m-3" style="background-color:rgb(147, 132, 100);">Add To Card</a>
+                </div>
+            </div>
+            <div class="card bg-warning rounded-3 mx-5 shadow-lg rounded" style="width: 18rem;">
+                <img src="https://c.pxhere.com/photos/d4/49/bread_loaf_food_french_loaf_sesame_seed-25751.jpg!s1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center fs-2 m-3">Card title</h5>
+                    <a href="#" class="btn d-flex justify-content-center fs-3 m-3" style="background-color:rgb(147, 132, 100);">Add To Card</a>
+                </div>
+            </div>
+            <div class="card bg-warning rounded-3 mx-5 shadow-lg rounded" style="width: 18rem;">
+                <img src="https://c.pxhere.com/photos/d4/49/bread_loaf_food_french_loaf_sesame_seed-25751.jpg!s1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center fs-2 m-3">Card title</h5>
+                    <a href="#" class="btn d-flex justify-content-center fs-3 m-3" style="background-color:rgb(147, 132, 100);">Add To Card</a>
+                </div>
+            </div>
+            <div class="card bg-warning rounded-3 mx-5 shadow-lg rounded" style="width: 18rem;">
+                <img src="https://c.pxhere.com/photos/d4/49/bread_loaf_food_french_loaf_sesame_seed-25751.jpg!s1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center fs-2 m-3">Card title</h5>
+                    <a href="#" class="btn d-flex justify-content-center fs-3 m-3" style="background-color:rgb(147, 132, 100);">Add To Card</a>
+                </div>
+            </div>
+            <div class="card bg-warning rounded-3 mx-5 shadow-lg rounded" style="width: 18rem;">
+                <img src="https://c.pxhere.com/photos/d4/49/bread_loaf_food_french_loaf_sesame_seed-25751.jpg!s1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center fs-2 m-3">Card title</h5>
+                    <a href="#" class="btn d-flex justify-content-center fs-3 m-3" style="background-color:rgb(147, 132, 100);">Add To Card</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-evenly" style="background-color:rgb(15, 23, 43);">
+            <div class="w-25">
+                <h2><span class="badge fst-italic c-warning fs-2 d-flex justify-content-center" style="color:#ffc107;">Restaurant</span></h2>
+                <div class="d-flex justify-content-center" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb Light">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">About Us</a></li>
+                    </ol>
+                </div>
+                <div class="d-flex justify-content-center" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Contact Us</a></li>
+                    </ol>
+                </div>
+                <div class="d-flex justify-content-center" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Rservation</a></li>
+                    </ol>
+                </div>
+                <div class="d-flex justify-content-center" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><a class="text-decoration-none link-light" href="">Privacy policy</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="w-25">
+                <h2><span class="badge fst-italic fs-2 d-flex justify-content-center"style="color:#ffc107;" >Services</span></h2>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Cooked</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Deliver</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Quality Food</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Drinkes</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="w-25">
+                <h2><span class="badge fst-italic fs-2" style="color:#ffc107;">Contact us</span></h2>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">123 Street, Benha, Egypt</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">+20 109 625 4594</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">custom@gmail.com</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="w-25">
+                <h2><span class="badge fst-italic fs-2 " style="color:#ffc107;">Openning</span></h2>
+                <div class="link-light" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item link-light"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Monday - Saturday</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">08AM - 12AM</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">Sunday</a></li>
+                    </ol>
+                </div>
+                <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#"></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"> <a class="text-decoration-none link-light" href="">12PM - 08PM</a></li>
+                    </ol>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
